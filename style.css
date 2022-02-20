@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(0, 204, 255);
+    height: 100vh;
+    transition: transform 0.30s ease-in;
+    position: absolute;
+    width: 230px;
+}
+.sidebar nav{
+    padding: 50px;
+    padding-top: 80px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 30px;
+    margin: 70px 0;
+}
+.sidebar nav li a:hover{
+    color: rgb(0, 204, 255);
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
+}
+.sidebar nav li a{
+    padding: 3px;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(255, 0, 242); */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.30s ease-out;
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreAbout{
+    font-size: 2.2em;
+    margin: 23px 0 0 0;
+}
+.buttons{
+    margin-left: -10px;
+    padding-top: 32px;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 3px 10px;
+    cursor: pointer;
+    background-color:  rgb(0, 204, 255);
+    color: white;
+    border: 2px solid rgb(0, 204, 255);
+}
+.btn-sm{
+    font-size: 15px;
+    padding: 7px 12px ;
+    margin: 10px auto;
+    width: 32vw;
+}
+.btn:hover{
+    color: rgb(0, 204, 255);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 204, 255);
+}
+.devPic img{
+    height: 58vh;
+}
+.mark{
+    position: absolute;
+    top: 20px;
+    left: 440px;
+    width: 600px;
+    height: 650px;
+    border-right: 1px solid rgb(0, 204, 255);
+    border-bottom: 1px solid rgb(0, 204, 255);
+    box-shadow: 5px 5px 20px rgb(0, 204, 255);
+    border-bottom-right-radius: 30px ;
+    border-top-left-radius: 30px ;
+    z-index: -1;
+}
+.contactForm{
+    margin: 90px 10px;
+    padding: 0 450px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.contactForm h1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px 0;
+    width: 600px;
+}
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm form div input{
+    width: 31.4vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.contactForm form{
+    margin: 0 30px;
+}
+#emailHelp{
+    color: blue;
+    font-size: 8px;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    height: 15px;
+    width: 30px;
+    margin: 4px -6px;
+}
+.blogContainer{
+    margin: 120px 50px 0 250px;
+}
+.blogContainer h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 23px;
+}
+.blogItem{
+    margin: 20px;
+}
+h1{
+    margin: 23px;
+} 
+.intro{
+    margin: 88px 88px;
+    position: relative;
+    left: 166px;
+    top: 24px;
+}
+.intro h2{
+    margin: 12px;
+}
+.intro p{
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: rgb(0, 204, 255);
+    border: 2px solid rgb(0, 204, 255);
+    border-radius: 12px;
+}
+.at{
+    width: 230px;
+}
+.nt{
+    width: 250px;
+}
+.st{
+    width: 210px;
+}
+.one{
+    margin-left: 63px;
+}
+.two{
+    margin-left: 80px;
+}
+.three{
+    margin-left: 17px;
+}
+.four{
+    margin-left: 73px;
+}
+.five{
+    margin-left: 80px;
+}
+.sidebarGo{
+        transform: translate(-433px,0px);
+        position: absolute;
+}
+.hamBurger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 15px;
+}
+.cros{
+    margin: 5px;
+}
+@media (max-width: 1400px) {
+    
+    /* .sidebar{
+        transform: translate(-433px,0px);
+        position: absolute;
+    } */
+    .devPic{
+        display: none;
+    }
+    .intro, .blogContainer, .contactForm{
+        margin: 50px 8px;
+    }
+    .devInfo{
+        font-size: 1px;
+    }
+    .buttons{
+    font-size: 8px;
+    }
+}

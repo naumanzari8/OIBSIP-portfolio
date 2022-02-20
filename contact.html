@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./intro.html">Intro</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+          <div class="hamBurger">
+            <img src="ham.png" width="30px" alt="" class="ham">
+            <img src="cross.png" width="23px" alt="" class="cros">
+        </div>
+        <div class="mark"> </div>
+            <div class="contactForm">
+                <div> <h1>Contact me for General/Work enquiry </h1>  </div>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientName" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientName" aria-describedby="nameHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientEmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientPhone" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3"  id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isClient">
+                      <label class="form-check-label" for="isClient"> General Enquiry</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
